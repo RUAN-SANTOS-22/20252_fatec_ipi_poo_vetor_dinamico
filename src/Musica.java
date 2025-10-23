@@ -6,6 +6,7 @@ import lombok.ToString;
 
 // ordem para gerar construtores sem argumento e com todos argumentos.
 @NoArgsConstructor
+
 @AllArgsConstructor
 
 // cria setter e getter para toda a classe.
@@ -30,4 +31,4 @@ public class Musica implements Comparable <Musica>{ //para comparar musicas
         return this.titulo.compareTo(outra.titulo);
     }
     
-}
+} //o
